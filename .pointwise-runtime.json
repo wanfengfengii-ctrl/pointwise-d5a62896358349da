@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": ["python3", "-B", "prepare.py"],
+  "verify": ["python3", "-B", "verify.py"],
+  "demo": ["python3", "-B", "demo.py"]
+}
